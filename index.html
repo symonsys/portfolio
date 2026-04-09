@@ -1,329 +1,192 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" /> 
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/img//pic.png">
-  <link rel="icon" type="image/png" href="assets/img//pic.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
-  <title>
-    Simon Macharia | Portfolio
-  </title>
-  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <title>Simon Macharia | Portfolio</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"/>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-  <!-- CSS Files -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/css/paper-kit.css?v=2.2.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="assets/demo/demo.css" rel="stylesheet" />
-  <style> 
-    .webdetails p{
-      line-height: 2.5em;
-      font-weight: 400;
-      font-size: 13px;
+
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <style>
+    body { font-family: 'Montserrat', sans-serif; }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('assets/img/antoine-barres.jpg') center/cover;
+      color: #fff;
+      padding: 120px 20px;
+      text-align: center;
     }
-    .section .card-profile {
-    margin-top: 20px !important;
-}
+
+    .block {
+      padding: 15px;
+      border-radius: 10px;
+      transition: 0.3s;
+      background: #fff;
+      margin-bottom: 20px;
+    }
+
+    .block:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .section {
+      padding: 60px 0;
+    }
+
+    .btn-round {
+      border-radius: 30px;
+    }
   </style>
 </head>
- 
 
-<body class="profile-page sidebar-collapse">
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="300"> 
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="/" rel="tooltip" title="Coded by Creative Tim" data-placement="bottom" target="_blank">
-          Simon Portfolio
-        </a>
-        <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-bar bar1"></span>
-          <span class="navbar-toggler-bar bar2"></span> 
-          <span class="navbar-toggler-bar bar3"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse justify-content-end" id="navigation"> 
-        <ul class="navbar-nav">
-         <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://www.linkedin.com/in/simon-macharia-a88905125/" target="_blank">
-              <i class="fa fa-linkedin"></i>
-              <p class="d-lg-none">LinkedIn</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/_encrypt__" target="_blank">
-              <i class="fa fa-twitter"></i>
-              <p class="d-lg-none">Twitter</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/cloudbit1" target="_blank">
-              <i class="fa fa-facebook-square"></i>
-              <p class="d-lg-none">Facebook</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/_ncypt_" target="_blank">
-              <i class="fa fa-instagram"></i>
-              <p class="d-lg-none">Instagram</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" rel="tooltip" title="Star on GitHub" data-placement="bottom" href="https://github.com/symonsys" target="_blank">
-              <i class="fa fa-github"></i>
-              <p class="d-lg-none">GitHub</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- End Navbar -->
-  <div class="page-header page-header-xs" data-parallax="true" style="background-image: url('assets/img/antoine-barres.jpg');">
-    <div class="filter"></div>
-  </div>
-  <div class="section profile-content">
-    <div class="container">
-      <div class="owner">
-        <div class="avatar">
-          <img src="assets/img/pic.png" alt="Circle Image" class="img-circle img-no-padding img-responsive">
-        </div>
-        <div class="name">
-          <h4 class="presentation-title">Simon Macharia
-            <br />
-          </h4>
-          <h6 class="presentation-subtitle">I'm a Website/Software Developer based in Nairobi Kenya</h6>
-         <p><b>Email:</b> simonmacharia26@gmail.com</p>
-         <p><b>Phone:</b> +254 792938477</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6 ml-auto mr-auto"> 
-          <div class="title">
-              <h3>Website Development</h3>
-              <br>
-            </div>
-          <p class="text-lg">I build websites from scratch using the latest frameworks</p>
-          <br />
-          <div class="title">
-              <h3>Web Designer</h3>
-              <br>
-            </div>
-          <p class="text-lg">I design or update websites with the latest technologies</p>
-          <br />
-          <div class="title">
-              <h3>Software Development</h3>
-              <br>
-            </div>
-          <p class="text-lg">I build software for busness management (ERP and POS)</p>
-          <br />
-        </div>
+<body>
 
-        <div class="col-md-6 ml-auto mr-auto">
-           <div class="title">
-              <h3>Skills Progress</h3>
-              <br>
-            </div>
-            <div class="col-md-12">
-            <h6 class="presentation-subtitle">Python</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
-            <h6 class="presentation-subtitle">PHP</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-             <br>
-            <h6 class="presentation-subtitle">Dart/Flutter</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
-            <h6 class="presentation-subtitle">C#</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
-            <h6 class="presentation-subtitle">Javascript</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 70%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
-            <h6 class="presentation-subtitle">HTML</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 99%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
-            <h6 class="presentation-subtitle">CSS</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
+<!-- HERO -->
+<div class="hero">
+  <img src="assets/img/pic.png" style="width:120px;border-radius:50%">
+  <h2 class="mt-3">Simon Macharia</h2>
 
-            <h6 class="presentation-subtitle">SQL</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
+  <p>
+    I build fast, scalable web apps, POS systems, and automation tools that solve real business problems.
+  </p>
 
-            <h6 class="presentation-subtitle">WORDPRESS</h6>
-            <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" style="width: 95%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-            <br>
+  <a href="#projects" class="btn btn-danger btn-round">View Projects</a>
+  <a href="mailto:simonmacharia26@gmail.com" class="btn btn-light btn-round">Hire Me</a>
+</div>
 
-          </div>
-        </div>
+<!-- ABOUT -->
+<div class="section text-center container">
+  <h3>About Me</h3>
+  <p>
+    Highly skilled IT Technician and Software Developer with a strong background in troubleshooting,
+    networking, and system development. I specialize in building reliable systems that improve business
+    efficiency and reduce downtime.
+  </p>
+</div>
 
+<!-- WHAT I DO -->
+<div class="section bg-light text-center">
+  <div class="container">
+    <h3>What I Do</h3>
+    <div class="row mt-4">
 
+      <div class="col-md-4">
+        <h5>⚡ Web Development</h5>
+        <p>Modern, scalable web applications using Flask, PHP & Bootstrap.</p>
       </div>
 
-
-
-       <h4 class="presentation-title">Projects
-            <br />
-          </h4>
-      <div class="row">
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Kinde Engineering Company</h4>
-          <a href="http://kinde.co.ke" target="_blank">
-            <img src="assets/img/projects/knde.png" class="img-rounded img-responsive" alt="Rounded Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-       <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Career Pros Africa</h4>
-          <a href="http://careerprosafrica.com" target="_blank">
-            <img src="assets/img/projects/career.png" class="img-rounded img-responsive" alt="Rounded Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Opulent Safaris</h4>
-          <a href="http://op.cloudbit.co.ke" target="_blank">
-            <img src="assets/img/projects/outset.png" class="img-rounded img-responsive" alt="Rounded Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Firmial</h4>
-          <a href="http://techworth.outsetsafaris.com" target="_blank">
-            <img src="assets/img/projects/firmial.png" class="img-rounded img-responsive" alt="Rounded Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Nereja Graphics</h4>
-          <a href="http://nerejagraphicsltd.co.ke" target="_blank">
-            <img src="assets/img/projects/nereja.png" class="img-rounded img-responsive" alt="Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Nature Works</h4>
-          <a href="http://natur.outsetsafaris.com" target="_blank">
-            <img src="assets/img/projects/nature.png" class="img-rounded img-responsive" alt="Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-        <div class="col-sm-3 col-md-4">
-         <div class="block">
-          <h4 class="images-title text-center">Retail POS Windows Software</h4>
-          <a href="https://qernel.cloudbit.co.ke/">
-            <img src="assets/img/projects/pos.png" class="img-rounded img-responsive" alt="Image">
-          </a>
-          <div class="img-details">
-          </div>
-           </div>
-        </div>
-
-       <div class="col-sm-3 col-md-4">
-        <div class="block">
-          <h4 class="images-title text-center">Mobile App (Set Wallpapers and download images easly on your android and ios devices, Created using Flutter and Pexel API)</h4>
-          <a href="https://macroprime.outsetsafaris.com/APPS/Macroprime.apk" target="_blank">
-            <img style="width:100%;height:200px;object-fit:contain" src="assets/img/projects/app.png" class="img-rounded img-responsive" alt="Rounded Image">
-          </a>
-          <div class="img-details">
-           <a href="https://macroprime.outsetsafaris.com/APPS/Macroprime.apk" target="_blank">Download APK</a> 
-          </div>
-         </div>
-         </div>
-       
-        </div>
+      <div class="col-md-4">
+        <h5>💼 POS & ERP Systems</h5>
+        <p>Custom business software like Qernel POS for real operations.</p>
       </div>
 
-      <br/>
+      <div class="col-md-4">
+        <h5>📡 Automation</h5>
+        <p>Streaming systems, FFmpeg pipelines, and automation tools.</p>
+      </div>
 
     </div>
   </div>
-  <footer class="footer    ">
-    <div class="container">
-      <div class="row">
-        <nav class="footer-nav">
-          <ul>
-            <li>
-              <a href="#" target="_blank">Simon Macharia</a>
-            </li>
-            <li>
-              <a href="#" target="_blank">Blog</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="credits ml-auto">
-          <span class="copyright">
-            ©
-            <script>
-              document.write(new Date().getFullYear())
-            </script>, made with <i class="fa fa-heart heart"></i> by Simon Macharia
-          </span>
-        </div>
+</div>
+
+<!-- EXPERIENCE -->
+<div class="section container">
+  <h3 class="text-center">Experience</h3>
+
+  <p><b>IT Technician – Deliverance Church</b> (2016–2024)</p>
+  <p>Managed media systems, live streaming, and IT infrastructure.</p>
+
+  <p><b>Software Developer – Qernel POS</b></p>
+  <p>Built a full POS system for sales, inventory, and reporting.</p>
+
+  <p><b>Web Developer – Career Pros Africa</b></p>
+  <p>Developed a website with integrated payment systems.</p>
+
+  <p><b>Web Developer – Kinde Engineering</b></p>
+  <p>Built a professional company website.</p>
+</div>
+
+<!-- SKILLS -->
+<div class="section bg-light text-center">
+  <div class="container">
+    <h3>Technical Skills</h3>
+
+    <p>
+      Python • C# • PHP • JavaScript • Flutter • MySQL • Linux • Networking • FFmpeg
+    </p>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+<div id="projects" class="section container">
+  <h3 class="text-center">Projects</h3>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="block">
+        <h5>Qernel POS</h5>
+        <img src="assets/img/projects/pos.png" class="img-fluid">
+        <p>Retail POS system with inventory & reporting.</p>
       </div>
     </div>
-  </footer>
-  <!--  Core JS Files  -->
-  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-  <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
-  <script src="assets/js/plugins/bootstrap-switch.js"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
-  <script src="assets/js/plugins/moment.min.js"></script>
-  <script src="assets/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
-  <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
-  <script src="assets/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
-  <!--  Google Maps Plugin    -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+
+    <div class="col-md-4">
+      <div class="block">
+        <h5>Career Pros Africa</h5>
+        <img src="assets/img/projects/career.png" class="img-fluid">
+        <p>Platform with payment integration.</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="block">
+        <h5>Kinde Engineering</h5>
+        <img src="assets/img/projects/knde.png" class="img-fluid">
+        <p>Corporate engineering website.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<div class="section bg-light text-center">
+  <div class="container">
+    <h3>Education & Certifications</h3>
+
+    <p><b>ABMA Diploma in Computer Engineering</b></p>
+
+    <p>
+      Python • C# • PHP • Ethical Hacking • Cisco Networking • Databases
+    </p>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="section text-center">
+  <h3>Contact Me</h3>
+
+  <p>Email: simonmacharia26@gmail.com</p>
+  <p>Phone: +254 792938477</p>
+
+  <a href="mailto:simonmacharia26@gmail.com" class="btn btn-danger btn-lg btn-round">
+    Hire Me
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer class="text-center p-4 bg-dark text-white">
+  © <script>document.write(new Date().getFullYear())</script> Simon Macharia
+</footer>
+
 </body>
-
 </html>
