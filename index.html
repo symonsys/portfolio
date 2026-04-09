@@ -50,6 +50,23 @@
     #cv-preview {
       transition: all 0.4s ease;
     }
+
+    .download-btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0, 114, 255, 0.4);
+    }
+    .download-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 114, 255, 0.6);
+    }
   </style>
 </head>
 
@@ -213,12 +230,13 @@
     </div>
     <div class="col-sm-3 col-md-4">
        <div class="block shadow-sm">
-          <h4 class="images-title text-center">Mobile App (Set Wallpapers and download images easly on your android and ios devices, Created using Flutter and Pexel API)</h4>
+          <h4 class="images-title text-center">Mobile App</h4>
           <a href="https://cloudbit.co.ke/APPS/Macroprime.apk" target="_blank">
           <img style="width:100%;height:200px;object-fit:contain" src="assets/img/projects/app.jpg" class="img-fluid" alt="Image">
           </a>
+         <p>Set Wallpapers and download images easly on your android and ios devices, Created using Flutter and Pexel API</p>
           <div class="img-details">
-             <a href="#" target="_blank">Download APK</a> 
+             <a href="#" target="_blank" class="download-btn">Download APK</a>
           </div>
        </div>
     </div>
